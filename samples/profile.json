@@ -1,0 +1,113 @@
+// https://api.brunch.co.kr/v1/profile/@imagineer
+{
+    "desc": "OK",
+    "code": 200,
+    "extra": "",
+    "data": {
+	"userId": "YZF",
+	"userName": "마르코",
+	"userImage": "http://t1.daumcdn.net/brunch/service/user/YZF/image/zZsrMSsj-bXgTPdgHnyGBoT0p7g.jpg",
+	"profileId": "imagineer",
+	"profileImage": null,
+	"description": "자유로운 삶을 만들어 나가는 사업가, 개발자, 그리고 애처가 bit.ly/facebook-marco bit.ly/marco-tv",
+	"createTime": 1450851214000,
+	"status": "verify",
+	"articleCount": 265,
+	"socialUser": false,
+	"writerCount": 377,
+	"followerCount": 8936,
+	"magazineCount": 12,
+	"company": "",
+	"descriptionDetail": "싱가폴에서 일하는 데이터 엔지니어",
+	"profileNotiExpireTime": 1533215043000,
+	"userSns": {
+	    "userId": "YZF",
+	    "website": "https://www.imagineer.io/",
+	    "facebook": "marcosdeseul/",
+	    "twitter": "",
+	    "instagram": "marco_casado_con_la_mas_guapa/",
+	    "createTime": 1532610001000,
+	    "updateTime": 1532610243000
+	},
+	"bookStoreBookList": [],
+	"profileCategoryList": [
+	    {
+		"category": "subject",
+		"categoryNo": 1,
+		"categoryName": "주제",
+		"keywordList": [
+		    {
+			"no": 56,
+			"keyword": "취업",
+			"frequency": null,
+			"sequence": 0,
+			"keywordNo": 3078
+		    },
+		    {
+			"no": 60,
+			"keyword": "해외생활",
+			"frequency": null,
+			"sequence": 1,
+			"keywordNo": 3533
+		    },
+		    {
+			"no": 25,
+			"keyword": "사랑",
+			"frequency": null,
+			"sequence": 2,
+			"keywordNo": 1665
+		    }
+		]
+	    },
+	    {
+		"category": "job",
+		"categoryNo": 2,
+		"categoryName": "직업",
+		"keywordList": [
+		    {
+			"no": 68,
+			"keyword": "개발자",
+			"frequency": null,
+			"sequence": 0,
+			"keywordNo": 523
+		    }
+		]
+	    }
+	],
+	"mainProduct": {
+	    "type": "WEEKLYMAGAZINE",
+	    "no": 27216,
+	    "title": "문과 출신 개발자의 싱가폴 취업기",
+	    "subTitle": "위클리 매거진",
+	    "image": "http://t1.daumcdn.net/section/oc/2597fb03990d453b821fc3a4adacfa72",
+	    "url": "/magazine/workingabroad",
+	    "bookCover": false,
+	    "bookCoverImage": "http://t1.daumcdn.net/section/oc/abc8695ff1134b16b3d88fe82a70cbc4",
+	    "firstOrderSelling": false,
+	    "weekday": 1,
+	    "weeklyMagazineStatus": "CONCLUDE"
+	},
+	"acceptPropose": true,
+	"articleViewType": "IMAGE",
+	"brunchActivityList": [
+	    {
+		"type": "WEEKLYMAGAZINE",
+		"title": "브런치 위클리 매거진 연재",
+		"subTitle": "문과 출신 개발자의 싱가폴 취업기",
+		"url": "/magazine/workingabroad"
+	    },
+	    {
+		"type": "BRUNCHBOOK",
+		"title": "브런치북 프로젝트 2회 은상 수상",
+		"subTitle": "출퇴근 없는 삶",
+		"url": "/magazine/work"
+	    }
+	],
+	"emailValidation": true,
+	"book": null,
+	"myFollower": false,
+	"myWriter": false,
+	"author": true,
+	"restrictTime": null
+    }
+}
