@@ -4,8 +4,8 @@ import (
 	"flag"
 	"log"
 	"fmt"
-	
-	"github.com/parnurzeal/gorequest"
+	"io/ioutil"
+	"net/http"
 )
 
 var (
@@ -21,12 +21,28 @@ func init() {
 	urlArticle	= fmt.Sprintf("https://api.brunch.co.kr/v1/article/@%s", *userId)
 }
 
-func main() {
-	request := gorequest.New()
-	resp, body, errs := request.Get(urlMagazine).End()
+func requestGet(url string) ([]byte, error) {
+	resp, err := http.Get(url)
 
-	if len(errs) == 0 {
-		log.Printf("resp: %s", resp)
+	if err != nil {
+		return []byte{}, err
+	}
+
+	defer resp.Body.Close()
+	body, err := ioutil.ReadAll(resp.Body)
+
+	if err != nil {
+		return []byte{}, err
+	}
+
+	return body, nil
+}
+
+func main() {
+	body, err := requestGet(urlMagazine)
+	if err == nil {
 		log.Printf("body: %s", body)
+	} else {
+		log.Printf("err: %s", err)
 	}
 }
