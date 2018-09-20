@@ -43,3 +43,13 @@ git clone git@github.com:marcosdeseul/brunch-crawler.git
 go get -u github.com/golang/dep/cmd/dep
 dep ensure
 ```
+
+## Run unit tests
+```sh
+go test tests/*
+```
+Recommended: install [looper](https://github.com/nathany/looper)
+```sh
+cd tests
+looper
+```

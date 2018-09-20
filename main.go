@@ -6,6 +6,8 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/marcosdeseul/brunch-crawler/parser"
 )
 
 var (
@@ -45,4 +47,7 @@ func main() {
 	} else {
 		log.Printf("err: %s", err)
 	}
+
+	json := parser.ParseTextIntoJson(body)
+	log.Printf("json: %s", json)
 }
