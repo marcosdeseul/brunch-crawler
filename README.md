@@ -48,8 +48,7 @@ dep ensure
 ```sh
 go test tests/*
 ```
-Recommended: install [looper](https://github.com/nathany/looper)
+Recommended: install [entr](http://entrproject.org/)
 ```sh
-cd tests
-looper
+./scripts/keep-testing.sh
 ```
